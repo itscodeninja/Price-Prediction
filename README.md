@@ -1,5 +1,4 @@
 # Price Prediction using Deep Learning
-<img src="https://s3.amazonaws.com/keras.io/img/keras-logo-2018-large-1200.png" height="80">
 
 ## Introduction
 This repository uses recurrent neural networks to predict the price of any stock, currency or cryptocurrency ( any market that [yahoo_fin](http://theautomatic.net/yahoo_fin-documentation/) library supports ) using **keras** library.
@@ -20,6 +19,7 @@ pip3 install -r requirements.txt
 ```
 ## Dataset
 Dataset is downloaded automatically using [yahoo_fin](http://theautomatic.net/yahoo_fin-documentation/) package and stored in `data` folder. click [here](http://theautomatic.net/yahoo_fin-documentation/) for more information about different tickers.
+
 ### **Example**
 ```python
 from keras.layers import GRU, LSTM, CuDNNLSTM
@@ -52,7 +52,7 @@ Mean Absolute Error: 145.36850360261292
 Mean Squared Error: 40611.868264624296
 Accuracy: 63.655%
 ```
-<img src="images/Figure_1.png" height="400" width="600">
+[outputimage](https://github.com/x4nth055/price-prediction/raw/master/images/Figure_1.png)
 
 Training logs are stored in `logs` folder that can be opened using [tensorboard](https://github.com/tensorflow/tensorboard), as well as model weights in `results` folder.
 
