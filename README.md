@@ -52,7 +52,7 @@ Mean Absolute Error: 145.36850360261292
 Mean Squared Error: 40611.868264624296
 Accuracy: 63.655%
 ```
-[outputimage](https://github.com/x4nth055/price-prediction/raw/master/images/Figure_1.png)
+![outputimage](https://github.com/x4nth055/price-prediction/raw/master/images/Figure_1.png)
 
 Training logs are stored in `logs` folder that can be opened using [tensorboard](https://github.com/tensorflow/tensorboard), as well as model weights in `results` folder.
 
